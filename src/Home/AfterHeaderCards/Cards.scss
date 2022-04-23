@@ -1,0 +1,32 @@
+.card{
+    position: relative;
+    border: none;
+}
+.cardDesc{
+    position: absolute;
+    text-align:left;
+    left: 10%;
+    top:30%;
+    width:80%;
+    min-width:40%;
+}
+.card-img-top{
+    height:100%;
+}
+
+@media only screen and (max-width: 600px) {
+    .cardDesc{
+    position: absolute;
+    text-align:left;
+    left: 10%;
+    top:15%;
+    width:80%;
+    min-width:40%;
+    }
+    .cardDesc .h2{
+        font-size: small;
+    }
+    .cardDesc .h6{
+        font-size: 18px;
+    }
+  }
